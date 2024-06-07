@@ -9,6 +9,6 @@ The current project is a basic approach of data analysis and statistics modeling
   - Propose actions to mitigate possible attacks.
 
 ### Results:
-  - Estipulation of a upper thresold to specify a period as an adversarial attack period.
+  - Estimated a upper threshold to specify a period as an adversarial attack period.
   - Bring up the understanding of the characteristics of an attack period.
-  - Propose of next steps to mitigate future attacks.
+  - Proposed for the next steps to mitigate future attacks.
