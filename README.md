@@ -18,21 +18,21 @@ The current project is a basic approach of data analysis and statistics modeling
 # 🎩 Step 1. Business problem understanding
 
 Data dictionary:
-- hora: The timestamp when the request was made, including date and time in UTC format (e.g. 2024-05-15 15:59:56 UTC).
+- hora: The timestamp when the request was made (e.g. 2024-05-15 15:59:56 UTC).
 - ip: The IP address (possibly anonymized or hashed) from which the request originated (e.g. 3.16.1a6931d1b...).
 - metodo: The HTTP method used for the request (GET, POST, HEAD, XCGFULLBAN, and OPTIONS).
-- protocolo: The protocol used for the request, including the version (HTTP/2.0, HTTP/1.1, and HTTP/1.0).
+- protocolo: The protocol used for the request (HTTP/2.0, HTTP/1.1, and HTTP/1.0).
 - hostname: The hostname or server name where the request was directed (codes starting with cab, ea6, and 145).
-- uri: The Uniform Resource Identifier (URI) requested by the client, representing the path to a resource on the server (e.g. /f276ac316f69...).
-- querstring: The query string part of the URL, which typically contains parameters for the request. Can be NaN if not present.
-- status_code: The HTTP status code returned by the server, indicating the result of the request (e.g., 200 for success).
-- useragent: The User-Agent string provided by the client, identifying the browser and operating system used (e.g. Mozilla/5.0).
-- tamanho_request: The size of the HTTP request sent by the client, typically in bytes.
-- tamanho_resposta: The size of the HTTP response returned by the server, typically in bytes.
-- organizacao: The organization associated with the IP address, often identified through an IP lookup service (e.g. AS16509 AMAZON-02).
+- uri: The Uniform Resource Identifier (URI) requested by the client (e.g. /f276ac316f69...).
+- querstring: The query string part of the URL, which typically contains parameters for the request.
+- status_code: The HTTP status code returned by the server (e.g., 200).
+- useragent: The User-Agent string provided by the client (e.g. Mozilla/5.0).
+- tamanho_request: The size of the HTTP request sent by the client.
+- tamanho_resposta: The size of the HTTP response returned by the server.
+- organizacao: The organization associated with the IP address (e.g. AS16509 AMAZON-02).
 - pais: The country where the request originated, based on the IP address (e.g. US).
 - cidade: The city where the request originated, based on the IP address (e.g. Columbus).
-- cookie_sessao: The session cookie value, which identifies the session associated with the request (e.g. 1e0a93baad5dd480...).
+- cookie_sessao: The session cookie value (e.g. 1e0a93baad5dd480...).
 - fingerprint1: First part of a set of fingerprinting values used to uniquely identify a client (e.g. b2bcc0e205d8ec...).
 - fingerprint2: Second part of the fingerprinting values (e.g. 844de68e6dea18...).
 - fingerprint3: Third part of the fingerprinting values (e.g. 16af3145e3eee5...).
